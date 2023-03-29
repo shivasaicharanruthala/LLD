@@ -24,7 +24,7 @@
 - [ ] Design Vending Machine
 - [X] Singleton Pattern
 - [ ] Design ATM
-- [ ] Builder Pattern
+- [X] Builder Pattern
 - [ ] Design Chess game
 - [X] Prototype Pattern
 - [ ] Design File System
@@ -34,7 +34,7 @@
 - [ ] Splitwise Simplify Algorithm / Optimal Accounting Balancing
 - [X] Flyweight Pattern
 - [ ] Design CricBuzz / CricketInfo
-- [ ] Command Pattern
+- [X] Command Pattern
 - [ ] Design True Caller
 - [ ] Interpreter Pattern
 - [ ] Design Car Booking Service like Ola, Uber
@@ -66,5 +66,5 @@
 
  
 ## References:
-1. Code examples taken from https://refactoring.guru/
+1. Most of the Code examples taken from https://refactoring.guru/design-patterns
 2. Study plan reference taken from https://www.youtube.com/@ConceptandCoding
