@@ -26,13 +26,13 @@
 - [ ] Design ATM
 - [ ] Builder Pattern
 - [ ] Design Chess game
-- [ ] Prototype Pattern
+- [X] Prototype Pattern
 - [ ] Design File System
-- [ ] Bridge Pattern
+- [X] Bridge Pattern
 - [ ] Design Splitwise
 - [X] Façade Pattern
 - [ ] Splitwise Simplify Algorithm / Optimal Accounting Balancing
-- [ ] Flyweight Pattern
+- [X] Flyweight Pattern
 - [ ] Design CricBuzz / CricketInfo
 - [ ] Command Pattern
 - [ ] Design True Caller
