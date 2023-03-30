@@ -16,7 +16,7 @@
 - [ ] Design Car Rental System
 - [X] Null Object Pattern
 - [ ] Design Logging System
-- [ ] State Pattern
+- [X] State Pattern
 - [ ] Design Tic-Tac-Toe game
 - [ ] Composite Pattern
 - [ ] Design BookMyShow & Concurrency handling
@@ -44,7 +44,7 @@
 - [ ] Design Library Management System
 - [ ] Memento Pattern
 - [ ] Design  Traffic Light System
-- [ ] Template Method Pattern
+- [X] Template Method Pattern
 - [ ] Design Meeting Scheduler
 - [ ] Visitor Pattern
 - [ ] Design Online Voting System
