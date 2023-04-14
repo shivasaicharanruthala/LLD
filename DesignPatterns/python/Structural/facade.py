@@ -1,4 +1,4 @@
-""""""
+from __future__ import annotations
 
 """
 Intent
@@ -11,8 +11,6 @@ Applicability
 1. when you need to have a limited but straightforward interface to a complex subsystem.
 2. when you want to structure a subsystem into layers.
 """
-
-from __future__ import annotations
 
 
 class Facade:

@@ -1,15 +1,16 @@
-"""
-Intent: Provides an interface for creating objects in a superclass but
-        allows its subclasses to alter the type of object that will be created.
-"""
-
-# It allows us to create objects by specifying their common interface at run time without
-# imposing their concrete class creation logic.
-
-
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List
+
+"""
+Intent: Provides an interface for creating objects in a superclass but
+        allows its subclasses to alter the type of object that will be created.
+
+
+It allows us to create objects by specifying their common interface at run time without 
+imposing their concrete class creation logic.
+
+"""
 
 
 class Person:

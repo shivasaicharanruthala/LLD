@@ -1,4 +1,3 @@
-""" Chain Of Responsibility """
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any, Optional
@@ -8,9 +7,8 @@ Intent
 
 Pattern that lets us pass requests along a chain of handlers. Upon receiving the request, each handler decides either to
 process the request or pass it to next handler in the chain
-"""
 
-"""
+
 Applicability
 
 Use the Chain of Responsibility pattern when your program is expected to process different kinds of requests in various 

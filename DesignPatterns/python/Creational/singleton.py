@@ -1,18 +1,17 @@
-# that lets you ensure that a class has only one instance, while providing a global access point to this instance.
-
-# violating the Single Responsibility Principle, as it solves 2 problem at a time
-
-
-"""
+from threading import Lock, Thread
+""" 
 Steps
 
 1. Make the default constructor private, to prevent other objects from using the new operator with the Singleton class.
 
 2. Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor
    to create an object and saves it in a static field. All following calls to this method return the cached object.
-"""
+   
+   
+# that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
-from threading import Lock, Thread
+# violating the Single Responsibility Principle, as it solves 2 problem at a time
+"""
 
 
 class Singleton:
@@ -29,7 +28,7 @@ class Singleton:
 
 def test_singleton(value: str) -> None:
     singleton = Singleton(value)
-    print(singleton.value)
+    print(singleton._instance)
 
 
 if __name__ == "__main__":
@@ -40,7 +39,7 @@ if __name__ == "__main__":
           "then 2 singletons were created (booo!!)\n\n"
           "RESULT:\n")
 
-    process1 = Thread(target=test_singleton, args=("Foo",))
-    process2 = Thread(target=test_singleton, args=("Bar",))
+    process1 = Thread(target=Singleton, args=())
+    process2 = Thread(target=Singleton, args=())
     process1.start()
     process2.start()

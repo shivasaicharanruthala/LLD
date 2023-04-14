@@ -34,10 +34,10 @@ class Context:
     """
 
     def request1(self):
-        self._state.hanlde1()
+        self._state.handle1()
 
     def request2(self):
-        self._state.hanlde2()
+        self._state.handle2()
 
 
 class State(ABC):

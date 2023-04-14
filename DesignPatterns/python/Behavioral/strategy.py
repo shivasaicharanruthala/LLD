@@ -2,18 +2,19 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List
 
-
+"""
 # Reference: https://refactoring.guru/design-patterns/strategy
-# Intent: lets you define a family of algorithms,
-# put each of them into a separate class, and make their objects interchangeable.
+Intent: lets you define a family of algorithms, put each of them into a separate class, 
+        and make their objects interchangeable.
 
-# Strategy is a behavioral design pattern that turns a set of behaviors into objects and makes them interchangeable
-# inside original context object.
+Strategy is a behavioral design pattern that turns a set of behaviors into objects and makes them interchangeable
+inside original context object.
 
-# Delegated the creating different algorithm objects into different class and each class represents one algorithm.
-# Context class is class which keeps reference to the algorithm chosen by the client and this can be modified
-# at runtime to. It works with all strategies through the same generic interface, which only exposes a single method for
-# triggering the algorithm encapsulated within the selected strategy
+Delegated the creating different algorithm objects into different class and each class represents one algorithm.
+Context class is class which keeps reference to the algorithm chosen by the client and this can be modified
+at runtime to. It works with all strategies through the same generic interface, which only exposes a single method for
+triggering the algorithm encapsulated within the selected strategy
+"""
 
 
 class Strategy(ABC):

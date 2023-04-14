@@ -120,15 +120,15 @@ func main() {
 
 	//Set next for medical department
 	medical := MedicalFactory(cashier)
-	medical.setNext(cashier)
+	//medical.setNext(cashier)
 
 	//Set next for doctor department
 	doctor := DoctorFactory(medical)
-	doctor.setNext(medical)
+	//doctor.setNext(medical)
 
 	//Set next for reception department
 	reception := ReceptionFactory(doctor)
-	reception.setNext(doctor)
+	//reception.setNext(doctor)
 
 	patient := &Patient{name: "shiva"}
 	//Patient visiting
