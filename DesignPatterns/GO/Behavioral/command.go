@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// example - https://betterprogramming.pub/the-command-design-pattern-2313909122b5
+
 // Device is a Receiver interface
 type Device interface {
 	on()
