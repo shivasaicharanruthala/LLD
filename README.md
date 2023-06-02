@@ -1,15 +1,15 @@
 # LLD
 
-- [ ] S.O.L.I.D Principles
+- [X] S.O.L.I.D Principles
 - [X] Strategy Pattern
 - [X] Observer Pattern
 - [ ] Design Notify-Me Button Functionality
 - [X] Decorator Pattern
 - [ ] Design  Pizza Billing System
 - [X] Factory Pattern
-- [ ] Design  Parking Lot
+- [X] Design  Parking Lot
 - [ ] Abstract Factory Pattern
-- [ ] Design  Snake n Ladder game
+- [X] Design  Snake n Ladder game
 - [X] Chain of Responsibility Pattern
 - [ ] Design Elevator System
 - [X] Proxy Pattern
